@@ -1,1 +1,149 @@
-<h4> worked </h4>
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="10;url=https://www.geledes.org.br/apos-passar-3-anos-preso-injustamente-ser-estuprado-e-contrair-hiv-na-cadeia-ex-pedreiro-ainda-luta-por-idenizacao/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/GoogWillHunting/hekayatshab/refs/heads/main/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="//api.bfont.ir/nastali-nazanin.min.css"/>
+    
+    <style>
+        body { 
+            font-family: "B Nazanin";
+            font-size: 15px;
+            text-align: center; 
+            direction: rtl; 
+            color: #7fb43c; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            justify-content: center; 
+            height: 100vh; 
+            margin: 0;
+            overflow: hidden;
+            background: linear-gradient(-45deg, #e9c835, #0c0c0c);
+            background-size: 400% 400%;
+            animation: waveAnimation 6s infinite alternate ease-in-out;
+        }
+        
+        @keyframes waveAnimation {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+        }
+        
+        .social-container { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            width: 100%; 
+            position: absolute;
+            top: 10px;
+            flex-wrap: wrap;
+        }
+        .social-block { 
+            text-align: center; 
+            margin: 10px;
+            padding: 15px; 
+            border-radius: 15px; 
+            background-color: rgba(255, 255, 255, 0.25); 
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        .social-block img { 
+            width: 120px; 
+            height: auto; 
+            display: block; 
+            margin: auto; 
+            border-radius: 10px; 
+        }
+        .social-icons { margin-top: 10px; }
+        .social-icons a { font-size: 24px; margin: 0 10px; text-decoration: none; }
+        .youtube-icon { color: red; }
+        .facebook-icon { color: blue; }
+        .dynamic-button { 
+            border-radius: 8px;
+            padding: 15px 30px; 
+            background: #000000; 
+            color: #e9c835; 
+            border: none; 
+            cursor: pointer; 
+            font-size: 20px; 
+            position: absolute; 
+            top: 50%; 
+            left: 50%; 
+            transform: translate(-50%, -50%);
+        }
+        footer {
+            position: absolute;
+            bottom: 5px;
+            width: 100%;
+            font-size: 14px;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-family: "Roboto", "Arial", sans-serif;
+        }
+        footer a {
+            color: #7fb43c;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .counter {
+            position: absolute;
+            bottom: 40px;
+            font-size: 16px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="social-container">
+        <div class="social-block">
+            <img src="https://raw.githubusercontent.com/GoogWillHunting/hekayatshab/refs/heads/main/HekayatShab.jpg" alt="Hekayat Shab">
+            <div class="social-icons">
+                <a href="https://youtube.com/hekayatshab" target="_blank" class="youtube-icon">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://facebook.com/hekayatshab" target="_blank" class="facebook-icon">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+        <div class="social-block">
+            <img src="https://raw.githubusercontent.com/GoogWillHunting/hekayatshab/refs/heads/main/Hekayayat%20Shab%20Shorts.jpg" alt="Hekayat Shab Shorts">
+            <div class="social-icons">
+                <a href="https://youtube.com/hekayatshabShorts" target="_blank" class="youtube-icon">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://facebook.com/hekayatshabShorts" target="_blank" class="facebook-icon">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <button class="dynamic-button" onclick="window.location.href='https://www.geledes.org.br/apos-passar-3-anos-preso-injustamente-ser-estuprado-e-contrair-hiv-na-cadeia-ex-pedreiro-ainda-luta-por-idenizacao/'">
+        در حال انتقال...
+    </button>
+
+    <div class="counter" id="viewCount"></div>
+
+    <footer>
+        <p>🚀 Powered by <a href="https://zeytoonict.com" target="_blank">Zeytoon ICT</a></p>
+    </footer>
+
+    <script>
+        // Local counter (client-side)
+        let views = localStorage.getItem("redirectViews") || 0;
+        views++;
+        localStorage.setItem("redirectViews", views);
+        document.getElementById("viewCount").innerText = `تعداد بازدیدهای شما از این صفحه: ${views}`;
+    </script>
+</body>
+</html>
